@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSUR :: Contacto</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Halcones <span>Contacto</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <main class="contenedor sombra contacto-contenido">
+        <div class="informacion-contacto">
+            <h2>¿Por qué elegir nuestra institución?</h2>
+            <p>Ya que nos comprometemos a ofrecerte una educación de calidad que te prepare para los desafíos del futuro. Al registrarte, obtendrás acceso a:</p>
+            <ul>
+                <li>Programas académicos reconocidos a nivel nacional.</li>
+                <li>Instalaciones modernas y equipadas.</li>
+                <li>Oportunidades de prácticas profesionales en empresas líderes.</li>
+                <li>Una comunidad estudiantil activa y colaborativa.</li>
+            </ul>
+            <p>¡No pierdas la oportunidad de formar parte de nuestra institución!</p>
+        </div>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Regístrate y nos pondremos en contacto contigo</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Tu Teléfono" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu Email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                    </div>
+                </div>
+
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados 2025</p>
+    </footer>
+</body>
+</html>
